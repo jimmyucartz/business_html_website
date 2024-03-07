@@ -19,33 +19,38 @@
   </head>
   <body>
     <section>
-      <div class="navbar">
-        <div class="brand-logo-container">
-          <img class="logo_image" src="assets/brand_logo.jpeg" alt="Logo" />
-          <div class="logo_text">TechNest Solutions</div>
+      <nav>
+        <div class="navbar">
+          <div class="brand-logo-container">
+            <img class="logo_image" src="assets/brand_logo.jpeg" alt="Logo" />
+            <div class="logo_text">TechNest Solutions</div>
+          </div>
+          <div class="nav-links">
+            <ul class="nav-links-list">
+              <li class="nav-link"><a href="#services">Services</a></li>
+              <li class="nav-link"><a href="#about_us">About us</a></li>
+              <li class="nav-link"><a href="#contact_us">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="nav-links">
-          <ul class="nav-links-list">
-            <li class="nav-link"><a href="#services">Services</a></li>
-            <li class="nav-link"><a href="#about_us">About us</a></li>
-            <li class="nav-link"><a href="#contact_us">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+      </nav>
     </section>
     <!--  -->
-    <section class="description">
+    <section class="description_container">
+      <!-- <div class="description_sub_contain"></div> -->
       <div class="desc_text">
         <h3 class="desc_title">Who We are</h3>
-        <p>
-          Passionate about tech innovation. <br />
-          We specialize in software, web, mobile, AI, and cloud solutions.
-          <br />
-          Join us in shaping the future, one innovation at a time.
-        </p>
+        <div class="desc_desc">
+          <p>
+            Passionate about tech innovation. <br />
+            We specialize in software, web, mobile, AI, and cloud solutions.
+            <br />
+            Join us in shaping the future, one innovation at a time.
+          </p>
+        </div>
 
-        <a class="start-btn" href="#">
-          Get Started Now
+        <a class="start-btn btn-hover" href="#">
+          Get Started Now &nbsp;
           <i class="material-icons">arrow_circle_right</i></a
         >
       </div>
@@ -163,7 +168,7 @@
         </div>
 
         <div class="col contact_image">
-          <img src="assets/contact_us.svg" />
+          <img class="flex-image" src="assets/contact_us.svg" />
         </div>
         <div class="col contact-right">
           <h4>Help Centre</h4>
